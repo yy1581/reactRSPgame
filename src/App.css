@@ -1,0 +1,109 @@
+.App {
+  position: relative;
+  width: 100%;
+  min-width: 575px;
+  max-width: 620px;
+  margin: 45px auto;
+  padding: 50px;
+  border-radius: 44px;
+  text-align: center;
+  background: #6f00ff;
+  background-color: #6f00ff;
+  box-shadow: 0 4.2px 2px #5900cc, 0 -4.2px 2px #8500ff;
+}
+
+.App-scores {
+  display: flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.App-scores>* {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.score {
+  width: 100px;
+  height: 100px;
+  background-color: #5900cc;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.score-num {
+  font-size: 40px;
+  color: yellow;
+  font-weight: 900;
+}
+
+.vs {
+  font-size: 40px;
+  position: absolute;
+  top: 30%;
+}
+
+.App-output {
+  padding: 5px;
+  margin-top: 20px;
+  box-shadow: 0 3px 8px 0 rgba(56, 15, 110, 0.44);
+  border-radius: 44px;
+}
+
+.App-output-inner {
+  border: 5px solid #6e08fc;
+  display: inline-block;
+  padding: 20px;
+  width: 100%;
+  border-radius: 44px;
+  box-shadow: inset 0 3px 8px 0 rgba(56, 15, 110, 0.44);
+}
+
+.output-hands {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.output-vs {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.multi-box {
+  margin-bottom: 20px;
+}
+
+.multi {
+  width: 60px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #5900cc;
+  border: 1px solid #9a59ee;
+  color: white;
+}
+
+.history-box {
+  background-color: white;
+  color: #5900cc;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.history {
+  text-align: left;
+  color: black;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.handbtn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
